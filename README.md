@@ -26,11 +26,12 @@ booktitle = {Proceedings of the 51st Annual International Symposium on Computer 
 ```
 $ conda create -n llmcompass_ae python=3.9
 $ conda activate llmcompass_ae
-$ pip3 install scalesim
+$ pip install scalesim
 $ conda install pytorch==2.0.0 -c pytorch
 $ pip3 install matplotlib
 $ pip3 install seaborn
 $ pip3 install scipy
+$ pip3 install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cpu
 ```
 
 ## Installation
